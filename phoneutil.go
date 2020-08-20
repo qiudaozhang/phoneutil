@@ -85,7 +85,6 @@ func FixNumberPhones(count int) (numbers []string) {
 }
 
 // 判断是否是合格的中国11位手机号
-
 func IsLegalChinaPhone(phone string) bool {
 	// 是否为11位
 	if len(phone) != 11 {
@@ -124,7 +123,6 @@ func IsLegalPrefix(prefix string) bool {
 }
 
 // 所有前缀
-
 func AllPrefix() []string {
 	var allPrefix []string
 	allPrefix = append(allPrefix, yiDongPhonePrefix...)

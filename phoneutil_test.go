@@ -25,8 +25,9 @@ func TestFixPrefixFixNumberRandomSuffix(t *testing.T) {
 
 }
 
+// 在MacBookPro2019上测试，30000个手机号耗时2秒左右，30万个手机号，136秒左右
 func TestFixNumberPhones(t *testing.T) {
-	fmt.Println(FixNumberPhones(232))
+	FixNumberPhones(300000)
 }
 
 func TestIsLegalChinaPhone(t *testing.T) {
